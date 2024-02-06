@@ -1,0 +1,164 @@
+@media screen and (max-width: 768px) {
+
+
+
+    .cabecalho {
+        content: url('/assets/image2.svg');
+        padding: 73.42px 696.91px 0px 40px;
+        width: 32px;
+        height: 50px;
+    }
+
+    .containers {
+        flex-direction: column;
+    }
+    
+    .container__entrada {
+        width: 688px;
+        height: 600px;
+        margin: 1200px 40px 0px -200px; /*diabo de margens são essas...*/
+    }
+
+    .container__entrada__botoes {
+        width: 100%;
+        margin-bottom: 64px;
+    }
+    
+    .container__entrada__botoes__encriptografar {
+        width: 100%;
+        height: auto;
+        padding: 24px 50px;
+    }
+
+    .container__entrada__botoes__desencriptografar {
+        width: 100%;
+        height: auto;
+        padding: 24px 50px;
+    }
+
+    .container__saida {
+        width: 688px;
+        height: auto;
+        margin: 190px 40px 40px 40px; /* outra margem louca */
+    }
+
+    .container__saida textarea {
+        width: 624px;
+        height: 300px;
+    }
+
+    .container__saida__imagem {
+        display: none;
+    }
+
+    .container__saida__avisos {
+        margin: 32px
+    }
+
+    .container__saida__avisos__titulo {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;  
+        padding: 0;
+        margin: 0 0 16px 0;
+    }
+
+    .container__saida__avisos__subtitulo {
+        padding: 0;
+    }
+
+    .container__saida__botao__copiar {
+        width: 624px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 375px) {
+
+
+
+    .cabecalho {
+        content: url('/assets/image2.svg');
+        padding: 24px 327px 0px 16px;
+        width: 32px;
+        height: 48px;
+    }
+  
+    .entrada {
+        width: 343px;
+    }
+  
+    .container__entrada {
+        width: auto;
+        height: 640px;
+        margin: 1300px 40px 0px -225px; /*diabo de margens são essas...*/
+    }
+
+    .container__entrada__texto {
+        width: 360px;
+    }
+
+    .container__entrada__mensagem__atencao {
+        width: 643px;
+    }
+
+    .container__entrada__botoes {
+        width: 343px;
+        margin-bottom: 64px;
+        flex-direction: column;
+    }
+     
+    .container__entrada__botoes__encriptografar {
+        width: 100%;
+        height: auto;
+        padding: 24px 50px;
+    }
+
+    .container__entrada__botoes__desencriptografar {
+        width: 100%;
+        height: auto;
+        padding: 24px 50px;
+    }
+ 
+    .container__saida {
+        width: 343px;
+        height: auto;
+        margin: 230px 40px 40px 16px; /* outra margem louca */
+    }
+
+    .container__saida__avisos {
+        margin: 32px
+    }
+
+    .container__saida__avisos__titulo {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;  
+        padding: 0;
+        margin: 0 0 16px 0;
+    }
+
+    .container__saida__avisos__subtitulo {
+        padding: 0;
+    }
+
+    .container__saida textarea {
+        width: 279px;
+        height: 300px;
+    }
+
+    .container__saida__imagem {
+        display: none;
+    }
+
+    .container__saida__botao__copiar {
+        width: 279px;
+    }
+  
+}

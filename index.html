@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    <title>Decodificador</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="imagem_logo" src="assets/Frame 6.svg" alt="logo alura">
+    </header>
+
+    <main class="containers">
+
+        <section class="container__entrada">
+
+            <div class="container__entrada__texto">
+                <textarea class="entrada" placeholder="Digite seu texto"></textarea>
+            </div>
+
+            <div class="container__entrada__alerta">
+                <img src="assets/bi_exclamation-circle-fill.svg" alt="logo de exclamação">
+
+                <p class="container__entrada__mensagem__atencao">Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div class="container__entrada__botoes">
+                <button onclick="criptografar()" class="container__entrada__botoes__encriptografar">Encriptografar</button>
+
+                <button onclick="descriptografar()" class="container__entrada__botoes__desencriptografar">Desencriptografar</button>
+            </div>
+
+        </section>
+
+        <section class="container__saida">
+
+            <div class="container__saida__imagem">
+                <img src="assets/High quality products 1 1.svg"
+                    alt="desenho de uma pessoa de joelhos com uma lupa olhando um diamante">
+            </div>
+
+            <div class="container__saida__avisos">
+                <h3 class="container__saida__avisos__titulo">Nenhuma mensagem encontrada</h3>
+
+                <p class="container__saida__avisos__subtitulo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+           
+            <div class="container__saida__copiar">
+                <button onclick="copiar()" class="container__saida__botao__copiar">Copiar</button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__paragrafo">Desenvolvido por <b>Miqueas Lucas</b> - 2024</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
